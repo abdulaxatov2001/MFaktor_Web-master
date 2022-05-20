@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BotService" />
+        <module name="AdminService" />
+        <module name="ClientService" />
+        <module name="Gateway" />
+        <module name="AuthService" />
+        <module name="Kafka" />
+        <module name="Discovery" />
+        <module name="CatalogService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AdminService" target="17" />
+      <module name="AuthService" target="17" />
+      <module name="BotService" target="17" />
+      <module name="BotService (1)" target="17" />
+      <module name="CatalogService" target="17" />
+      <module name="ClientService" target="17" />
+      <module name="Discovery" target="17" />
+      <module name="Gateway" target="17" />
+      <module name="Kafka" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AdminService" options="-parameters" />
+      <module name="AuthService" options="-parameters" />
+      <module name="BotService" options="-parameters" />
+      <module name="BotService (1)" options="-parameters" />
+      <module name="CatalogService" options="-parameters" />
+      <module name="ClientService" options="-parameters" />
+      <module name="Discovery" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Kafka" options="-parameters" />
+    </option>
+  </component>
+</project>
